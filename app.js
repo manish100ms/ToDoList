@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 mongoose.connect(
-  "mongodb+srv://manish100ms:manish1230@todolist-v2.8m1lzkc.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://manish100ms:manish1230@todolist-v2.8m1lzkc.mongodb.net/todolistDB"
 );
 
 const itemSchema = {
